@@ -1,0 +1,217 @@
+.container{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    gap:1.5rem;
+    background:#eee;
+}
+
+.container .posts-container .post{
+    width:100%;
+    padding:2rem;
+    background:#fff;
+    border:var(--border);
+    border-radius: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+.container .posts-container .post .image{
+    height: 20rem;
+    width:70%;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+
+.container .posts-container .post .date{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    color:var(--orange);
+}
+
+.container .posts-container .post .title{
+    padding-top: 1.5rem;
+    font-size: 2.5rem;
+    color:var(--black);
+}
+
+.container .posts-container .post .text{
+    color:var(--light-color);
+    font-size: 1.6rem;
+    line-height: 1.7;
+    padding:1rem 0;
+}
+
+.container .posts-container .links{
+    border-top: var(--border);
+    margin-top: .5rem;
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.container .posts-container .links .user{
+    margin-right: auto;
+}
+
+.container .posts-container .links .icon{
+    padding-right: 1rem;
+}
+
+.container .posts-container .links a{
+    font-size: 1.5rem;
+    color:lightblue;
+}
+
+.container .posts-container .links a i{
+    padding-right: .2rem;
+    color:var(--black);
+}
+
+.container .posts-container .links a:hover{
+    color:orange;
+}
+
+.container .posts-container .links a:hover i{
+    color:orange;
+}
+
+.container .sidebar .box{
+    border:var(--border);
+    border-radius: .5rem;
+    overflow:hidden;
+    background:#fff;
+    margin-bottom: 1.5rem;
+}
+
+.container .sidebar .box .title{
+    padding:1.5px;
+    font-size: 2rem;
+    color:#fff;
+    background:black;
+    text-transform: capitalize;
+}
+
+.container .sidebar .box .about{
+    text-align: center;
+    padding:1rem 1.5rem;
+}
+
+.container .sidebar .box .about img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin:1rem 0;
+}
+
+.container .sidebar .box .about h3{
+    color:orange;
+    font-size: 2rem;
+}
+
+.container .sidebar .box .about p{
+    color:lightcoral;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding:1rem;
+}
+
+.container .sidebar .box .about .follow{
+    padding:1rem 0;
+}
+
+.container .sidebar .box .about .follow a{
+    height: 4rem;
+    line-height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background:black;
+    color:#fff;
+    font-size: 1.7rem;
+    margin:0 .1rem;
+}
+
+.container .sidebar .box .about .follow a:hover{
+    background:orange;
+}
+
+.container .sidebar .box .category{
+    padding:1px 1.5px;
+}
+
+.container .sidebar .box .category a{
+    padding:.4rem 0;
+    font-size: 1.5rem;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .sidebar .box .category a span{
+    background:palevioletred;
+    color:#fff;
+    border-radius: .5rem;
+    padding:.5rem;
+}
+
+.container .sidebar .box .category a:hover{
+    color:orange;
+}
+
+.container .sidebar .box .category a:hover span{
+    background-color:orange;
+}
+
+.container .sidebar .box .p-post{
+    padding:1rem 2rem;
+}
+
+.container .sidebar .box .p-post a{
+    padding:1rem 0;
+    display: block;
+}
+
+.container .sidebar .box .p-post a h3{
+    color:black;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.container .sidebar .box .p-post a span{
+    color:orange;
+    font-size: 1.5rem;
+}
+
+.container .sidebar .box .p-post a span i{
+    padding-right: .2rem;
+}
+
+.container .sidebar .box .p-post a:hover h3{
+    color:orange;
+}
+
+.container .sidebar .box .tags{
+    padding:1rem;
+}
+
+.container .sidebar .box .tags a{
+    display: inline-block;
+    padding:1rem 1.5rem;
+    font-size: 1.5rem;
+    color:black;
+    border-radius: .5rem;
+    border:var(--border);
+    margin:.5rem;
+}
+
+.container .sidebar .box .tags a:hover{
+    background:black;
+    color:#fff;
+}
+
+.contact{
+    background:url(contact-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
